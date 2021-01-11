@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = prompt('Nhập số a: ');
+        let b = prompt('nhập vào số b: ');
+        for (; a < b; a++) {
+            // document.write(a + '<br>');
+            if (a % 3 == 0 && a % 5 == 0) {
+                document.write('fizzbuzz <br>');
+            } else if (a % 5 == 0) {
+                document.write('buzz <br>');
+            } else if (a % 3 == 0) {
+                document.write("fizz <br>");
+            } else {
+                document.write(a + '<br>');
+            }
+        }
+
+    </script>
+</body>
+
+</html>
